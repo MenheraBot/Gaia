@@ -1,7 +1,8 @@
 <script setup lang="ts">
-console.log('also');
+import BaseHeader from './components/BaseHeader.vue';
 </script>
 
 <template>
-  <p class="bg-slate-500">That good init</p>
+  <BaseHeader />
+  <RouterView />
 </template>
